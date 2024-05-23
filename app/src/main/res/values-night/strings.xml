@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="games">Games</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="files">Files</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="hello">Hello,</string>
+    <string name="press_on_circle_nto_select_the_joint">Press on Circle \nto select the joint</string>
+    <string name="monsoon">Monsoon</string>
+    <string name="no">NO</string>
+    <string name="assisted">Assisted</string>
+    <string name="session_time">Session Time</string>
+    <string name="movement_score">Movement Score</string>
+    <string name="success_rate">Success Rate</string>
+    <string name="delete">Delete</string>
+    <string name="index_finger">Index Finger</string>
+    <string name="history">History</string>
+</resources>

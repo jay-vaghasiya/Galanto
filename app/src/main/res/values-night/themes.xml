@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Galanto" parent="Theme.Material3.Light">
+
+        <item name="actionBarTheme">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+</resources>

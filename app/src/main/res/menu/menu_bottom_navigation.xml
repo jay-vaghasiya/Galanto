@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fgHome"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/fgGames"
+        android:icon="@drawable/ic_game_controller"
+        android:title="@string/games"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/fgDashboard"
+        android:icon="@drawable/ic_charts"
+        android:title="@string/dashboard"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/fgFiles"
+        android:icon="@drawable/ic_file"
+        android:title="@string/files"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/fgSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

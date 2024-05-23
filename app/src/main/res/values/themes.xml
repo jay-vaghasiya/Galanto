@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Galanto" parent="Theme.Material3.Light">
+
+        <item name="actionBarTheme">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="Theme.Galanto" parent="Base.Theme.Galanto" />
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="strokeColor">@android:color/darker_gray</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
