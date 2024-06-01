@@ -1,8 +1,14 @@
-package com.jay.galanto
+package com.jay.galanto.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.jay.galanto.ui.fragment.dashboard.DashboardFragment
+import com.jay.galanto.ui.fragment.FilesFragment
+import com.jay.galanto.ui.fragment.GamesFragment
+import com.jay.galanto.ui.fragment.HomeFragment
+import com.jay.galanto.R
+import com.jay.galanto.ui.fragment.SettingsFragment
 import com.jay.galanto.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
