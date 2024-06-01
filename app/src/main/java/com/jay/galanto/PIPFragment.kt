@@ -15,7 +15,7 @@ import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import com.google.firebase.firestore.FirebaseFirestore
 import com.jay.galanto.databinding.FragmentPIPBinding
-import com.jay.galanto.utils.DateAxisValueFormatter
+import com.jay.galanto.utils.DateValueFormatter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
@@ -135,7 +135,7 @@ class PIPFragment : Fragment() {
                 chart?.description = description
 
                 val xAxis = chart?.xAxis
-                xAxis?.valueFormatter = DateAxisValueFormatter()
+                xAxis?.valueFormatter = DateValueFormatter()
             }
 
             _binding?.chartHistory?.post {

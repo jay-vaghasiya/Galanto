@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-class DateAxisValueFormatter : ValueFormatter() {
+class DateValueFormatter : ValueFormatter() {
     private val dateFormat = SimpleDateFormat("dd MMM yyyy", Locale.US)
 
     override fun getFormattedValue(value: Float): String {
