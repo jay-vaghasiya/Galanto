@@ -15,18 +15,17 @@ class CircularProgress : View {
     private val circlePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.STROKE
         color = Color.GRAY
-        strokeWidth = 20f // Adjust the stroke width as needed
-    }
+        strokeWidth = 20f }
 
     private val progressPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.STROKE
-        color = Color.BLUE // Change color to whatever you prefer
-        strokeWidth = 20f // Should match the stroke width of the circlePaint
+        color = Color.BLUE
+        strokeWidth = 20f
     }
 
     private val textPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         color = Color.BLACK
-        textSize = 40f // Adjust text size as needed
+        textSize = 40f
     }
 
     private val oval = RectF()
